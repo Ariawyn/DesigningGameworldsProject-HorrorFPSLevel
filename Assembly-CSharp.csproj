@@ -36,12 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\First person controller\Components\Jump.cs" />
-     <Compile Include="Assets\First person controller\FirstPersonLook.cs" />
-     <Compile Include="Assets\First person controller\Components\Zoom.cs" />
-     <Compile Include="Assets\First person controller\FirstPersonMovement.cs" />
-     <Compile Include="Assets\First person controller\Components\GroundCheck.cs" />
-     <Compile Include="Assets\First person controller\Components\Crouch.cs" />
+     <Compile Include="Assets\Scripts\FlashingLight.cs" />
+     <Compile Include="Assets\Scripts\VaultOpenTrigger.cs" />
+     <Compile Include="Assets\Scripts\SFXTrigger.cs" />
+     <None Include="Assets\UrbanNightSky\Readme.txt" />
      <None Include="Assets\PolygonCity\Change_Log.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -606,6 +604,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{881759c2-bc90-0e18-35e1-fe6695f56081}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
